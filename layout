@@ -1,0 +1,36 @@
+parts {
+    portrait {
+        background {
+            image   sunmi_p2.png
+        }
+    }
+
+    device {
+        display {
+            width   720
+            height  1440
+            x       0
+            y       0
+        }
+    }
+}
+
+layouts {
+    portrait {
+        width   1115
+        height  2538
+        color   0x000000
+
+        part1 {
+            name    portrait
+            x       0
+            y       0
+        }
+
+        part2 {
+            name    device
+            x       199
+            y       943
+        }
+    }
+}
